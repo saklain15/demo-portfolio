@@ -2,16 +2,22 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+*,
+::before,
+::after{
+  box-sizing: border-box;
+}
 h1 {
   font-size: 50px;
 }
 h2 {
   font-size: 40px;
 }
-span {
+span,
+h3 {
   color: orange;
 }
-section {
+.experience_flexible {
   display: flex;
   margin-bottom: 100px;
 }
@@ -43,7 +49,16 @@ selector. It will cover 90% area out of 50%.
   background-repeat: no-repeat;
   background-position: right;
 }
-.paraEdit{
+.paraEdit {
   width: 450px;
- 
 }
+.experience {
+  display: inline-block;
+  width: 70%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 20px;
+ padding-bottom: 40px;
+  box-shadow: 5px 7px 40px grey;
+}
+
